@@ -1,7 +1,7 @@
 {
   "name": "project-uas",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Joelent Network** merupakan aplikasi berbasis console yang dikembangkan menggunakan bahasa pemrograman TypeScript untuk membantu proses pengelolaan data pelanggan dan pembayaran tagihan WiFi.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,18 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
-  }
+  },
+  "dependencies": {
+    "undici-types": "^8.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiichiroazka/Kelompok-4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seiichiroazka/Kelompok-4/issues"
+  },
+  "homepage": "https://github.com/seiichiroazka/Kelompok-4#readme"
 }
